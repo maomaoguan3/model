@@ -1,0 +1,512 @@
+{
+    "inst_inst_order_id": {
+        "feature_type": "id",
+        "data_type": "int",
+        "transform": null
+    },
+    "inst_inst_code": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "inst_inst_order_no": {
+        "feature_type": "id",
+        "data_type": "str",
+        "transform": null
+    },
+    "inst_order_type": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "inst_currency": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "inst_amount": {
+        "feature_type": "num",
+        "data_type": "float",
+        "transform": null
+    },
+    "inst_status": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "inst_communicate_type": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "inst_communicate_status": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "inst_archive_batch_id": {
+        "feature_type": "id",
+        "data_type": "int",
+        "transform": null
+    },
+    "inst_gmt_submit": {
+        "feature_type": "time",
+        "data_type": "datetime",
+        "transform": null
+    },
+    "inst_gmt_create": {
+        "feature_type": "time",
+        "data_type": "datetime",
+        "transform": null
+    },
+    "inst_gmt_modified": {
+        "feature_type": "time",
+        "data_type": "datetime",
+        "transform": null
+    },
+    "inst_memo": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "inst_product_code": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "inst_payment_code": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "inst_pay_mode": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "inst_fund_channel_code": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "inst_fund_channel_api": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "inst_archive_template_id": {
+        "feature_type": "id",
+        "data_type": "int",
+        "transform": null
+    },
+    "inst_submit_priority": {
+        "feature_type": "num",
+        "data_type": "int",
+        "transform": null
+    },
+    "inst_gmt_booking_submit": {
+        "feature_type": "time",
+        "data_type": "datetime",
+        "transform": null
+    },
+    "inst_retry_times": {
+        "feature_type": "num",
+        "data_type": "int",
+        "transform": null
+    },
+    "inst_gmt_next_retry": {
+        "feature_type": "time",
+        "data_type": "datetime",
+        "transform": null
+    },
+    "inst_flag": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "inst_risk_status": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "inst_route_version": {
+        "feature_type": "num",
+        "data_type": "int",
+        "transform": null
+    },
+    "inst_reversal_status": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "inst_cmf_seq_no": {
+        "feature_type": "id",
+        "data_type": "str",
+        "transform": null
+    },
+    "inst_is_split": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "inst_extension": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "inst_expect_time": {
+        "feature_type": "time",
+        "data_type": "datetime",
+        "transform": null
+    },
+    "inst_is_advance": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": "lambda x: x == 'Y'"
+    },
+    "inst_query_no": {
+        "feature_type": "num",
+        "data_type": "int",
+        "transform": null
+    },
+    "inst_send_type": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "inst_merchant_id": {
+        "feature_type": "id",
+        "data_type": "str",
+        "transform": null
+    },
+    "cmf_cmf_seq_no": {
+        "feature_type": "id",
+        "data_type": "str",
+        "transform": null
+    },
+    "cmf_payment_seq_no": {
+        "feature_type": "id",
+        "data_type": "str",
+        "transform": null
+    },
+    "cmf_request_batch_no": {
+        "feature_type": "id",
+        "data_type": "str",
+        "transform": null
+    },
+    "cmf_order_type": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "cmf_product_code": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "cmf_payment_code": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "cmf_member_id": {
+        "feature_type": "id",
+        "data_type": "str",
+        "transform": null
+    },
+    "cmf_amount": {
+        "feature_type": "num",
+        "data_type": "float",
+        "transform": null
+    },
+    "cmf_currency": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "cmf_inst_code": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "cmf_payment_notify_status": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "cmf_communicate_type": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "cmf_status": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "cmf_operator": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "cmf_gmt_submit": {
+        "feature_type": "time",
+        "data_type": "datetime",
+        "transform": null
+    },
+    "cmf_inst_order_id": {
+        "feature_type": "id",
+        "data_type": "int",
+        "transform": null
+    },
+    "cmf_gmt_create": {
+        "feature_type": "time",
+        "data_type": "datetime",
+        "transform": null
+    },
+    "cmf_biz_date": {
+        "feature_type": "time",
+        "data_type": "str",
+        "transform": null
+    },
+    "cmf_gmt_modified": {
+        "feature_type": "time",
+        "data_type": "datetime",
+        "transform": null
+    },
+    "cmf_memo": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "cmf_confirm_status": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "cmf_pay_mode": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "cmf_submit_batch_no": {
+        "feature_type": "id",
+        "data_type": "str",
+        "transform": null
+    },
+    "cmf_orgi_payment_seq_no": {
+        "feature_type": "id",
+        "data_type": "str",
+        "transform": null
+    },
+    "cmf_expect_time": {
+        "feature_type": "time",
+        "data_type": "datetime",
+        "transform": null
+    },
+    "cmf_extension": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "cmf_settlement_id": {
+        "feature_type": "id",
+        "data_type": "str",
+        "transform": null
+    },
+    "cmf_orgi_settlement_id": {
+        "feature_type": "id",
+        "data_type": "str",
+        "transform": null
+    },
+    "cmf_payment_voucher_no": {
+        "feature_type": "id",
+        "data_type": "str",
+        "transform": null
+    },
+    "pmt_payment_seq_no": {
+        "feature_type": "id",
+        "data_type": "str",
+        "transform": null
+    },
+    "pmt_biz_payment_seq_no": {
+        "feature_type": "id",
+        "data_type": "str",
+        "transform": null
+    },
+    "pmt_relate_payment_seq_no": {
+        "feature_type": "id",
+        "data_type": "str",
+        "transform": null
+    },
+    "pmt_payment_type": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "pmt_product_code": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "pmt_payment_code": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "pmt_product_order_no": {
+        "feature_type": "id",
+        "data_type": "str",
+        "transform": null
+    },
+    "pmt_payment_order_no": {
+        "feature_type": "id",
+        "data_type": "str",
+        "transform": null
+    },
+    "pmt_auto_settle": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": "lambda x: x == 'Y'"
+    },
+    "pmt_gmt_payment": {
+        "feature_type": "time",
+        "data_type": "datetime",
+        "transform": null
+    },
+    "pmt_gmt_create": {
+        "feature_type": "time",
+        "data_type": "datetime",
+        "transform": null
+    },
+    "pmt_gmt_modified": {
+        "feature_type": "time",
+        "data_type": "datetime",
+        "transform": null
+    },
+    "pmt_memo": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "pmt_pay_mode": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "pmt_pay_channel": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "pmt_ps_code": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "el_id": {
+        "feature_type": "id",
+        "data_type": "str",
+        "transform": null
+    },
+    "el_checkpoint": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "el_classification": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "el_eventbody": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "el_eventvalidstatus": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "el_ext": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "el_finalresult": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "el_reason": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "el_requestreceive": {
+        "feature_type": "time",
+        "data_type": "str",
+        "transform": null
+    },
+    "el_requesttime": {
+        "feature_type": "time",
+        "data_type": "str",
+        "transform": null
+    },
+    "el_responsetime": {
+        "feature_type": "time",
+        "data_type": "str",
+        "transform": null
+    },
+    "el_results": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "el_reviewstatus": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "el_risklevel": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "el_riskmessage": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "el_rules": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "el_savetime": {
+        "feature_type": "time",
+        "data_type": "str",
+        "transform": null
+    },
+    "el_tag": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    },
+    "el_totalscore": {
+        "feature_type": "num",
+        "data_type": "str",
+        "transform": "lambda x: float(x) if x else None"
+    },
+    "el_trialscore": {
+        "feature_type": "num",
+        "data_type": "str",
+        "transform": "lambda x: float(x) if x else None"
+    },
+    "el_validmemo": {
+        "feature_type": "cat",
+        "data_type": "str",
+        "transform": null
+    }
+}
